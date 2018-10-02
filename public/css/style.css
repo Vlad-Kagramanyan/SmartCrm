@@ -1,0 +1,487 @@
+ul li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+/*    color: white;*/
+}
+
+a {
+/*    color: white;*/
+}
+
+.form-title-date {
+    font-size: 13px;
+    margin-left: 50%;
+    margin-bottom: -25px;
+    margin-top: 9px;
+}
+
+address, dl, ol, p, ul {
+    margin-bottom: .5rem;
+}
+
+.custom-control--char__helper {
+    text-transform: uppercase;
+}
+
+.search {
+    margin-bottom: -2px;
+}
+
+.custom-control--char__helper:before {
+    content: '';
+    z-index: 1;
+}
+
+
+.card-title {
+    margin-bottom: 7px;
+}
+
+.red-border {
+    border-left: 5px solid red !important;
+}
+
+.gray-border {
+    border-left: 5px solid gray !important;
+}
+
+.green-border {
+    border-left: 5px solid #58af0f !important;
+}
+
+.blue-border {
+    border-left: 5px solid blue !important;
+}
+
+.aqua-border {
+    border-left: 5px solid aqua !important;
+}
+
+.header {
+    background-color: #4fca8b;
+}
+
+table {
+    width:  100%;
+}
+
+․.w-33 {
+    width: 33%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+i {
+    margin: 0 5px;
+}
+
+.user__email, .user__name {
+    color: white;
+}
+
+.content {
+    padding-bottom: 150px !important;
+}
+
+.m-bottom-8px {
+    margin-bottom: 8px !important;
+}
+
+.m-top-minus-45px {
+    margin-top: -45px;
+}
+
+div.row.card-block {
+    padding: 0;
+}
+
+.students .card {
+    border-radius: 20px;
+}
+
+.administration div.card, .orders div.card{
+    background: transparent;
+    border: 1px solid #bdbdbd !important;
+}
+
+.administration a, .orders a {
+    color: white
+}
+
+.administration .card-title, .administration .card-subtitle,
+.orders .card-title, .orders .card-subtitle{
+    color: white;
+}
+
+.administration .btn-secondary, .orders .btn-secondary{
+    color: white;
+    background-color: transparent;
+}
+
+.administration .dropdown-menu, .orders .dropdown-menu {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.orders .table-order-pay {
+    color: white;
+}
+
+.flex-space-column {
+         display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+section.content {
+    background: linear-gradient(to top, #0155b8,#29d14d);
+/*        background-image: url(https://ebgo.amocrm.ru/frontend/images/interface/dashboard/themes/amo/full.jpg);*/
+}
+
+.padding-bottom {
+    padding-bottom: 50px;
+}
+
+.modal-l {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.modal-content {
+}
+
+.p-bottom-60px {
+    padding-bottom: 60px;
+    
+}
+
+.modal-content-flex p {
+    margin-bottom: 2px;
+}
+
+.modal-content-flex .card-title {
+    margin-bottom: 7px;
+}
+
+.modal-content-flex i {
+    margin: 0 4px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.listview__heading+p {
+    color: wheat;    
+}
+
+
+.listview__heading {
+   color: white;  
+}
+
+.toolbar {
+    margin-bottom: 50px;
+}
+
+.card-subtitle-mame {
+     font-size: 1rem;
+}
+
+.table-order-pay {
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.table-order-pay th, .table-order-pay td {
+    text-align: center;
+}
+
+.inline {
+     display: inline-block;   
+}
+
+/*
+.modal-footer {
+    padding-top: 10px;
+    position: absolute !important;
+    right: 35px;
+    bottom: 0px;
+}
+*/
+
+.absolute-close {
+    position: absolute !important;
+    right: 35px;
+    bottom: 0px;
+}
+
+
+
+.red-border-bottom {
+    border-bottom: 5px solid red !important;
+}
+
+.gray-border-bottom {
+    border-bottom: 5px solid gray !important;
+}
+
+.green-border-bottom {
+    border-bottom: 5px solid #58af0f !important;
+}
+
+.blue-border-bottom {
+    border-bottom: 5px solid blue !important;
+}
+
+.card-block-inner {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.table-price {
+     margin-top: 20px;
+    width: 100%;
+}
+
+.card-header {
+   padding: 0;
+    padding-bottom: 35px;
+}
+
+.collapse-todo {
+    display: none;
+}
+
+.toggle-todo {
+    cursor: pointer;
+}
+
+.modal-op-order {
+    position: absolute;
+    right: 25px;
+    bottom: 22px;
+}
+
+.modal-content .card-subtitle {
+    color: #9c9c9c;
+}
+
+.modal-content .card-title {
+    color: #9c9c9c;
+}
+
+.modal-content .modal-body a {
+    color: #9c9c9c;
+}
+
+.modal-content .btn-secondary {
+    color: #9c9c9c;
+}
+
+.card-header .actions, .card>.actions {
+    position: absolute;
+    right: -15px;
+    z-index: 2;
+    top: -4px;
+}
+
+.modal-op-order-level-2 {
+    position: absolute;
+    left: 50px;
+    bottom: 22px;
+/*    color: black;*/
+}
+
+#modal-large1 {
+    background-color: #e7e7e7;
+}
+
+.finance-table {
+    width: 100%;
+}
+
+.finance-table th, .finance-table td {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.finance-table th {
+    color: black;
+}
+
+.finance-table td > div {
+    margin: auto;
+}
+
+.login_errors {
+    color: red;
+}
+
+.modal-header .file-upload {
+    top: 20px;
+    right: 25px;
+     overflow: hidden;
+     width: 200px; 
+     height: 200px;
+    border-radius: 5px;
+}
+
+.modal-header .file-upload label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-course .modal-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-course .modal-title, .popover, .tooltip {
+    line-height: .5;
+}
+
+.file-upload {
+     position: absolute;
+    top: 20px;
+    right: 25px;
+     overflow: hidden;
+     width: 65px; 
+     height: 65px; 
+     background: #32c787;
+     border-radius: 50px;
+     padding: 8px 4px;
+     color: #fff;
+     text-align: center;
+    
+}
+.file-upload:hover {
+     background: #7aad55;
+}
+.file-upload input[type="file"]{
+    display: none; 
+}
+.file-upload label {
+     
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+}
+
+.pagination {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pagination li {
+    margin: 5px;
+}
+
+.pagination li a{
+    border: 1px solid;
+    padding: 5px 10px;
+
+}
+
+.pagination.users {
+    background: transparent;
+}
+
+.pagination.users li a{
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.pagination.organizations {
+    background: transparent;
+}
+
+.pagination.organizations li a{
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+
+.file-upload span {
+     line-height: 29px;
+}
+
+.sidebar .navigation a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.modal-body i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1976d2;
+}
+
+.footer>p {
+    color: wheat;
+}
+
+.company-conversia {
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar-block {
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.orders-modals .card-title, .orders-modals a, .orders-modals i {
+    color: black;
+}
+
+.orders-modals a, .orders-modals i, .orders-modals p, .orders-modals .btn{
+    color: #707070;
+}
+
+
+@media (max-width: 1199px) {
+    .sidebar {
+        background-color: #06b761 !important;
+        transition: transform .3s,opacity .3s;
+    }
+    
+}
+
+
+
+
